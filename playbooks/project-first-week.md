@@ -2,8 +2,8 @@
 
 ## Day 0 (about 1 hour): set up
 
-1. Local layout and git identity: [`git-identity-per-client.md`](git-identity-per-client.md).
-2. Create the notes repo from [`../templates/my-i-project/`](../templates/my-i-project/).
+1. Local layout and git identity: [`setup/git-identity-per-client.md`](../setup/git-identity-per-client.md).
+2. Create the notes repo from [`templates/my-i-project/`](../templates/my-i-project/).
 3. Link it from the client repo so Claude and you can find it there: `ln -s ../my-i-<project> .me` (ignored globally).
 4. Never store credentials in the notes repo, PoC logins included. Use a password manager.
 

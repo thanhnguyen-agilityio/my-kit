@@ -1,6 +1,6 @@
 # my-agility-ai-kits
 
-A private collection of Agility AI kits. Each kit lives in `kits/<kit-name>/` with its own README. See the root `README.md` for the index and how to add a kit.
+My private career kit. Top-level folders: `setup/`, `templates/`, `playbooks/`, `ai/`, `notes/`. Each folder has a `README.md` index. See the root `README.md` for the layout and how to add something.
 
 ## Model use: save cost
 
@@ -16,6 +16,6 @@ When you spawn a subagent, set its `model` to match the task by these rules. Do 
 
 - Commit and push directly to `main`. No feature branches or pull requests unless asked.
 - Never commit secrets or client data. Remove them before adding a kit.
-- Keep the root README kit table in sync when you add, rename or remove a kit.
-- When `kits/smoliv-relay/ticket-to-pr-deck.html` changes, republish its Artifact to the same link (https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425) so the README links stay current.
-- `kits/*/CLAUDE.md.template` files are kit content for other repos, not rules for this repo.
+- Keep the root README Contents table and the folder's `README.md` in sync when you add, rename or remove an item.
+- When `ai/ticket-to-pr/ticket-to-pr-deck.html` changes, republish its Artifact to the same link (https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425) so the README links stay current.
+- `CLAUDE.md.template` files (under `ai/` and `templates/`) are kit content for other repos, not rules for this repo.

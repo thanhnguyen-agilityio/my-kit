@@ -1,6 +1,6 @@
 Internal to Agility. Do not share publicly.
 
-# smoliv-relay
+# ticket-to-pr
 
 Ticket to pull request with human gates: the AI runs each step, and a person takes the baton at each gate.
 
@@ -99,7 +99,7 @@ Step 3 writes code and tests in your repo, not a file here.
 ## Install
 
 ```bash
-./smoliv-relay/install.sh /path/to/your/repo
+./ai/ticket-to-pr/install.sh /path/to/your/repo
 ```
 
 It copies `CLAUDE.md` (from the template), `.claude/` and `skills-lock.json`, and makes the scripts runnable. It never overwrites a file that exists, so it is safe to rerun. Then:
@@ -173,3 +173,4 @@ Rule of thumb: if you paste the same prompt three times, make it a command. If i
 - `grilling` comes from the public repo `mattpocock/skills` (`skills/productivity/grill-me`, which calls `grilling`). It is MIT-style licensed. Keep the credit if you share it.
 - `unslop` is a simple version inspired by `theclaymethod/unslop` on GitHub.
 - The other skills were written for one internal project and then generalized.
+- Built on project smoliv. This kit was called `smoliv-relay` before.
