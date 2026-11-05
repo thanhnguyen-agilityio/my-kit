@@ -23,4 +23,4 @@ cp -R ~/work/my-kit/templates/my-i-project/. ~/work/Projects/<project>/my-i-<pro
 mv ~/work/Projects/<project>/my-i-<project>/CLAUDE.md.template ~/work/Projects/<project>/my-i-<project>/CLAUDE.md
 ```
 
-Then follow [`setup/git-identity-per-client.md`](../setup/git-identity-per-client.md) and [`playbooks/project-first-week.md`](../playbooks/project-first-week.md).
+Then follow [`playbooks/git-ssh-setup.md`](../playbooks/git-ssh-setup.md) and [`playbooks/project-first-week.md`](../playbooks/project-first-week.md).
