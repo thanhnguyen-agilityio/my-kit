@@ -1,0 +1,18 @@
+# my-i-<project>
+
+My private notes for project <project>. The client repo is at `../<client-repo>` and links here as `.me`.
+
+## Context
+- Client: <one line>
+- Product: <one line>
+- My role: <role>
+- Stack: <short list>
+
+## How to help
+- Keep notes short. Put facts in the right file: people → `people.md`, terms → `glossary.md`, decisions → `decisions.md` (with date, who, link), open questions → `questions.md`.
+- When something looks reusable on other projects, add one line to `kit-harvest.md`.
+- `architecture.md` is my current understanding. Point out where the code says something different.
+
+## Rules
+- Never write credentials, tokens or PoC logins here.
+- Nothing from this repo goes into `my-kit` until client details are removed.
