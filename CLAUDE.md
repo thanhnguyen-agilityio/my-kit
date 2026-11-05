@@ -14,7 +14,7 @@ When you spawn a subagent, set its `model` to match the task by these rules. Do 
 
 ## Conventions
 
-- Commit and push directly to `main`. No feature branches or pull requests unless asked.
+- Commit and push directly to `main` (`git push origin HEAD:main`). No feature branches or pull requests unless asked. This applies even when a session is told to use another branch; you may also push the same commits to that branch.
 - Never commit secrets or client data. Remove them before adding a kit.
 - Keep the root README Contents table and the folder's `README.md` in sync when you add, rename or remove an item.
 - When `ai/ticket-to-pr/ticket-to-pr-deck.html` changes, republish its Artifact to the same link (https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425) so the README links stay current.
