@@ -3,8 +3,8 @@
 ## Day 0 (about 1 hour): set up
 
 1. Local layout and git identity: [`playbooks/git-ssh-setup.md`](git-ssh-setup.md) (run `setup/client-git-setup.sh`).
-2. Create the notes repo from [`templates/my-i-project/`](../templates/my-i-project/).
-3. Link it from the client repo so Claude and you can find it there: `ln -s ../my-i-<project> .me` (ignored globally).
+2. Create the notes repo from [`templates/my-project/`](../templates/my-project/).
+3. Link it from the client repo so Claude and you can find it there: `ln -s ../my-<project> .me` (ignored globally).
 4. Never store credentials in the notes repo, PoC logins included. Use a password manager.
 
 ## Days 1–3: learn on purpose

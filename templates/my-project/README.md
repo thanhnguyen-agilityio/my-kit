@@ -1,4 +1,4 @@
-# my-i-<project>
+# my-<project>
 
 Private notes for project <project>. No credentials here. Archive or delete when the project ends.
 
