@@ -1,21 +1,26 @@
 # my-agility-ai-kits
 
-My private career kit. Top-level folders: `setup/`, `templates/`, `playbooks/`, `ai/`, `notes/`. Each folder has a `README.md` index. See the root `README.md` for the layout and how to add something.
+My private career kit. Top-level folders: `setup/`, `templates/`, `playbooks/`, `ai/`, `notes/`, each with a `README.md` index. Root `README.md` has the layout and how to add something.
 
-## Model use: save cost
+## Models and cost
 
-Pick the cheapest model that can do the job.
+- Opus (main session) plans, decides and reviews. It does not write code.
+- Code: `Agent` with `model: sonnet` (`haiku` for small edits).
+- Mechanical work (commands, tests, reading data, status checks): `Agent` with `model: haiku`.
+- Exception: a few-line edit or one or two commands are cheaper done directly.
 
-- **Opus: advisor only.** Planning, design decisions, reviewing tricky changes, unblocking when stuck. Do not use Opus to write bulk code or run routine steps.
-- **Sonnet: code.** Writing and editing code, skills and scripts. Use **Haiku** for small, well-specified code changes.
-- **Haiku: mechanical tasks.** Search, file listing, renames, moving or copying files, format fixes, updating indexes and tables, summarizing output.
+## Writing style
 
-When you spawn a subagent, set its `model` to match the task by these rules. Do not let it inherit Opus by default.
+For prose I read (answers, docs, READMEs, reports, PR descriptions), not code, comments, commits or logs.
+
+- Over ~300 words: start with a 1–3 line **TL;DR**, and keep only what carries the value: decisions (one line of why), key numbers, risks, action items.
+- Never cut code, commands or caveats that change a decision. Give the full version if I ask.
+- Visuals are text only (Mermaid in `.md`, tables or ASCII in the terminal), for comparisons and flows only.
 
 ## Conventions
 
-- Commit and push directly to `main` (`git push origin HEAD:main`). No feature branches or pull requests unless asked. This applies even when a session is told to use another branch; you may also push the same commits to that branch.
-- Never commit secrets or client data. Remove them before adding a kit.
-- Keep the root README Contents table and the folder's `README.md` in sync when you add, rename or remove an item.
-- When `ai/ticket-to-pr/ticket-to-pr-deck.html` changes, republish its Artifact to the same link (https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425) so the README links stay current.
-- `CLAUDE.md.template` files (under `ai/` and `templates/`) are kit content for other repos, not rules for this repo.
+- Commit and push straight to `main` (`git push origin HEAD:main`), even if the session names another branch (you may push there too). No PRs unless asked.
+- Never commit secrets or client data.
+- Keep the root README Contents table and the folder `README.md` in sync when adding, renaming or removing an item.
+- When `ai/ticket-to-pr/ticket-to-pr-deck.html` changes, republish it to https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425.
+- `CLAUDE.md.template` files are kit content for other repos, not rules here.
