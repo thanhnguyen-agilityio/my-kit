@@ -23,6 +23,7 @@ My career kit: setup guides, templates, playbooks, AI kits and notes I can reuse
 | [`templates/my-project/`](templates/my-project/) | Project togepi | Scaffold for a private notes repo, one per project: onboarding checklist, log, people, glossary, architecture, decisions, kit harvest, `CLAUDE.md`. |
 | [`playbooks/project-first-week.md`](playbooks/project-first-week.md) | Project togepi | Day 0 to week 1 on a new project, ending with a "My understanding of `<product>`" one-pager. |
 | [`ai/ticket-to-pr/`](ai/ticket-to-pr/) | Project smoliv | Ticket to pull request with human gates. Claude Code skills and one command for a 5-step flow: grill, plan (sync issue, plan), implement, review (self-review, team review, fix), open PR. [Talk deck](https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425). |
+| [`notes/claude-15-tips.md`](notes/claude-15-tips.md) | Ben AI video | 15 tips for working with a smart model like Opus: briefs, pre-planning, effort levels, skills from real work, context and cost hygiene. |
 
 ## Adding something
 
