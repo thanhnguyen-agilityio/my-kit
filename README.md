@@ -20,6 +20,8 @@ My career kit: setup guides, templates, playbooks, AI kits and notes I can reuse
 | --- | --- | --- |
 | [`setup/client-git-setup.sh`](setup/client-git-setup.sh) | Project togepi | Script: a git identity per client folder (SSH key, `includeIf`, SSH signing). Safe to rerun. |
 | [`playbooks/git-ssh-setup.md`](playbooks/git-ssh-setup.md) | Project togepi | Guide for the script: key rules and naming, register keys, check, gotchas, offboarding. |
+| [`setup/tailscale-setup.md`](setup/tailscale-setup.md) | Company resources | Connect to the company Tailnet to reach company GitLab. |
+| [`setup/gitlab-setup.md`](setup/gitlab-setup.md) | Company resources | Company GitLab with the `glab` CLI: sign in, branches, MRs, issues, pipelines. |
 | [`templates/my-project/`](templates/my-project/) | Project togepi | Scaffold for a private notes repo, one per project: onboarding checklist, log, people, glossary, architecture, decisions, kit harvest, `CLAUDE.md`. |
 | [`playbooks/project-first-week.md`](playbooks/project-first-week.md) | Project togepi | Day 0 to week 1 on a new project, ending with a "My understanding of `<product>`" one-pager. |
 | [`ai/ticket-to-pr/`](ai/ticket-to-pr/) | Project smoliv | Ticket to pull request with human gates. Claude Code skills and one command for a 5-step flow: grill, plan (sync issue, plan), implement, review (self-review, team review, fix), open PR. [Talk deck](https://claude.ai/artifact/3EpcEJz2iXRxZchVMoP425). |
